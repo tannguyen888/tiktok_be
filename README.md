@@ -1,6 +1,6 @@
 # TikTok Backend - API Server
 
-## 📋 Mô tả Dự án
+##  Mô tả Dự án
 
 Đây là backend API server cho ứng dụng TikTok Clone được xây dựng bằng **Node.js**, **Express**, **MongoDB** và **Mongoose**.
 
@@ -12,7 +12,7 @@ Backend cung cấp các API endpoints để quản lý:
 
 ---
 
-## 🛠️ Yêu cầu Hệ thống
+##  Yêu cầu Hệ thống
 
 Trước khi cài đặt, bạn cần:
 - **Node.js** >= 16.0.0 (Download từ [nodejs.org](https://nodejs.org))
@@ -28,7 +28,7 @@ npm --version
 
 ---
 
-## 📦 Cài đặt & Khởi động
+##  Cài đặt & Khởi động
 
 ### **Bước 1: Clone Repository (nếu chưa có)**
 ```powershell
@@ -83,7 +83,7 @@ Server sẽ chạy trên: `http://localhost:5000`
 
 ---
 
-## 📁 Cấu trúc Dự án
+##  Cấu trúc Dự án
 
 ```
 backend/
@@ -116,7 +116,7 @@ backend/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### **Base URL:** `http://localhost:5000/api`
 
@@ -356,7 +356,7 @@ Response (200):
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 Tất cả các route được bảo vệ bằng JWT token phải gửi trong header:
 
@@ -371,7 +371,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-## 🗄️ Schema MongoDB
+##  Schema MongoDB
 
 ### **User Schema**
 ```javascript
@@ -425,7 +425,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-## 🚀 Deploy lên Production
+##  Deploy lên Production
 
 ### **Deploy trên Render**
 
@@ -461,7 +461,7 @@ git push -u origin main
 
 ---
 
-## 📝 Các Lệnh Hữu Ích
+##  Các Lệnh Hữu Ích
 
 ```powershell
 # Cài đặt dependencies
@@ -489,7 +489,7 @@ npm audit fix
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### **Lỗi: "Cannot find module 'mongoose'"**
 ```powershell
@@ -516,7 +516,7 @@ server.use(cors());
 
 ---
 
-## 📚 Dependencies Chi Tiết
+##  Dependencies Chi Tiết
 
 | Package | Phiên bản | Mục đích |
 |---------|----------|---------|
@@ -531,14 +531,14 @@ server.use(cors());
 
 ---
 
-## 📞 Contact & Support
+##  Contact & Support
 
 - GitHub: [tannguyen888](https://github.com/tannguyen888)
 - Email: Contact through GitHub
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
 
