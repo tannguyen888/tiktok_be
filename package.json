@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "migrate:up": "node migrations/runMigration.js up",
+    "migrate:down": "node migrations/runMigration.js down",
+    "migrate:status": "node migrations/runMigration.js status",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

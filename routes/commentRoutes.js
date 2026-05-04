@@ -2,11 +2,12 @@
 const express = require('express');
 const commentController = require('../controllers/commentController');
 const authMiddleware = require('../middleware/authMiddleware');
-// TODO: GET    /:videoId -> getComments
+// TODO: GET    /?videoId=... or /:videoId -> getComments
 // TODO: POST   /:videoId -> authMiddleware, addComment
 // TODO: DELETE /:id      -> authMiddleware, deleteComment
 const router = express.Router();
-router.get('/:videoId', commentController.getComments);
+router.get('/', commentController.getComments); // Handle query parameters
+router.get('/:videoId', commentController.getComments); // Handle path parameters
 router.post('/:videoId', authMiddleware, commentController.addComment);
 router.delete('/:id', authMiddleware, commentController.deleteComment);
 
