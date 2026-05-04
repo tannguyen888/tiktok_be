@@ -1,6 +1,6 @@
-# 📮 Postman API Testing Guide
+#  Postman API Testing Guide
 
-## 🛠️ Cài đặt Postman
+##  Cài đặt Postman
 
 1. **Download Postman**: https://www.postman.com/downloads/
 2. **Cài đặt** và **mở ứng dụng**
@@ -8,7 +8,7 @@
 
 ---
 
-## 🌍 Cấu hình Environment
+##  Cấu hình Environment
 
 ### **Bước 1: Tạo Environment**
 1. Click **Environments** (trái sidebar)
@@ -31,13 +31,13 @@ video_id              string  (để trống)              (để trống)
 
 ---
 
-## 📝 Test APIs
+##  Test APIs
 
 ### **Base URL:** `{{base_url}}/api`
 
 ---
 
-## 1️⃣ USER API
+##  USER API
 
 ### **A. Register (Đăng ký)**
 
@@ -157,7 +157,7 @@ Authorization: Bearer {{token}}
 
 ---
 
-## 2️⃣ VIDEO API
+##  VIDEO API
 
 ### **A. Upload Video**
 
@@ -285,7 +285,7 @@ Authorization: Bearer {{token}}
 
 ---
 
-## 3️⃣ COMMENT API
+##  COMMENT API
 
 ### **A. Add Comment**
 
@@ -363,7 +363,7 @@ Authorization: Bearer {{token}}
 
 ---
 
-## 4️⃣ LIKE API
+##  LIKE API
 
 ### **A. Toggle Like (Thích/Bỏ Thích)**
 
@@ -402,7 +402,7 @@ Authorization: Bearer {{token}}
 
 ---
 
-## 📦 Tạo Collection (Tùy chọn)
+##  Tạo Collection (Tùy chọn)
 
 ### **Bước 1: Create Collection**
 1. Click **Collections** (sidebar trái)
@@ -448,7 +448,7 @@ Tạo folders con:
 
 ---
 
-## 🧪 Test Sequence
+##  Test Sequence
 
 **Thứ tự test từ trên xuống:**
 
@@ -472,7 +472,7 @@ Tạo folders con:
 
 ---
 
-## ⚙️ Troubleshooting
+##  Troubleshooting
 
 ### **Lỗi: "Unauthorized" (401)**
 - Kiểm tra token trong Authorization header
@@ -498,7 +498,7 @@ Tạo folders con:
 
 ---
 
-## 💡 Tips & Tricks
+##  Tips & Tricks
 
 ### **1. Reuse Token**
 ```
@@ -533,7 +533,7 @@ Giúp frontend dev test khi backend chưa ready
 
 ---
 
-## 📊 Response Status Codes
+##  Response Status Codes
 
 | Code | Meaning | Example |
 |------|---------|---------|
@@ -547,7 +547,7 @@ Giúp frontend dev test khi backend chưa ready
 
 ---
 
-## 🔐 Security Notes
+##  Security Notes
 
 - ⚠️ **Không commit token** vào Git
 - ⚠️ **Không share token** công khai
@@ -556,7 +556,7 @@ Giúp frontend dev test khi backend chưa ready
 
 ---
 
-## 📚 Further Reading
+##  Further Reading
 
 - [Postman Documentation](https://learning.postman.com/)
 - [REST API Best Practices](https://restfulapi.net/)
