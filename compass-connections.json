@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "00e4342e-f09b-40c6-82fe-b23fcde98261",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1777849849344"
+        }
+      },
+      "favorite": {
+        "name": "tiktok_clone",
+        "color": "no-color"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
